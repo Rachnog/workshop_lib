@@ -4,8 +4,8 @@ Testing cov matrices
 import os
 import unittest
 
-from wwlib.data_loaders.data_loaders import StandardParquetDataLoader
-from wwlib.cov_estimators.cov_estimators import CovarianceMatrixEstimator
+from workshop_lib.data_loaders.data_loaders import StandardParquetDataLoader
+from workshop_lib.cov_estimators.cov_estimators import CovarianceMatrixEstimator
 
 
 class TestCovMatrixEstimators(unittest.TestCase):

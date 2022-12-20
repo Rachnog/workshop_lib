@@ -4,7 +4,7 @@ Testing data loaders
 import os
 import unittest
 
-from wwlib.data_loaders.data_loaders import StandardParquetDataLoader
+from workshop_lib.data_loaders.data_loaders import StandardParquetDataLoader
 
 
 class TestDataLoaders(unittest.TestCase):
